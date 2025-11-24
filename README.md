@@ -4,7 +4,7 @@
 - Marvin Ivan Mangubat
 - Jeremy James Tan
 
-#### [Link to Demo Video](LINK)
+#### [Link to Demo Video]([LINK](https://youtu.be/Ik0SZmUrajg))
 
 ---
 
@@ -86,4 +86,5 @@ loop_start:
 ```
 
 3.  **Scalability:**
+
     The speedup factor remains consistent (~6x) regardless of the vector size. This indicates that the performance advantage is intrinsic to the instruction efficiency and memory access patterns of the Assembly code, rather than just being an artifact of a specific dataset size. However, it's still important to consider that this performance is heavily dependent on the underlying hardware. If we were to run this code using a much faster computer, how much faster the Assembly kernel would be compared to the C kernel may be different from the results we found.
